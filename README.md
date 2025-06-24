@@ -1,4 +1,4 @@
-# cs360-portfolio
+# Weight Tracker Android Application
 
 Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 
