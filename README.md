@@ -37,3 +37,8 @@ to Intents before passing them to the startActivity() function.
 I leveraged this in order to pass in an id if the operation was an update instead of a create.
 
 - In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+
+In my opinion, the main screen, the weight grid, was the feature which I felt encompassed all of my skills and experience.
+It features several different UI components, many of which are interactive. Although I have no previous mobile application
+development experience, I felt I was able to tap into my web development knowledge and back-end skills to successfully
+complete the feature. Overall, I'm satisfied with the result, although I would like to enhance the styling some more.
