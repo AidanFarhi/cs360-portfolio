@@ -10,7 +10,8 @@ and the casual user looking for an easy and convenient way to track their weight
 
 In order to create a user-centric user interface, several screens were required. There needed to be login and register screens allowing current
 and new users to sign up to the app. Additionally, there needed to be a screen which showed the user's current weight, target weight, and weight
-entries over time. I made sure to use intuitive and easy-to-understand iconography for buttons and inputs. I also tried to keep
+entries over time. Also required were screens to create and edit daily and target weights. 
+Throughout the application, I made sure to use intuitive and easy-to-understand iconography for buttons and inputs. I also tried to keep
 the number of elements displayed on a page to a minimum in order to reduce cognitive load and overall busyness.
 Overall, I believe I was successfull in designing and app with an acceptable and approachable UI/UX.
 
