@@ -32,9 +32,9 @@ This iterative process was paramount in ensuring each piece of functionality wor
 - Consider the full app design and development process from initial planning to finalization. Where did you have to innovate to overcome a challenge?
 
 While developing the application, there was one particular piece of functionality that I found challenging. I needed to figure out how to handle
-updating a weight entry vs. creating a new one. Since I was using the same activity class, I needed a way to optionally pass in a weight entry id
-if the operation was an update. After some research, I learned there is a feature which allows you to attach additional attributes 
-to Intents before passing them to the startActivity() function.
+updating a weight entry vs. creating a new one. Since I was using the same java class for both operations, 
+I needed a way to optionally pass in a weight entry id if the operation was an update. After some research, I learned there is a feature 
+which allows you to attach additional attributes to Intents before passing them to the startActivity() function.
 I leveraged this in order to pass in an id if the operation was an update instead of a create.
 
 - In what specific component of your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
