@@ -25,7 +25,7 @@ I will probably use the same approach in future projects. I think this is a reas
 
 For each unit of functionality, I tested it in isolation to ensure it was working. For example, when creating the register feature,
 I wrote all the logic to create the tables and the back-end interactions between the UI, activity, and database. After doing this,
-I spun up the device emulator in Android Studio and used the application monitor feature to query the SQLite database
+I spun up the device emulator in Android Studio and used the App Inspector tool to query the SQLite database
 as I interacted with the register screen. This enabled me to debug and iterate, ultimaletly leading to a working component.
 This iterative process was paramount in ensuring each piece of functionality worked in isolation before adding other features.
 
