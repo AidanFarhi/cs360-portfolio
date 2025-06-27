@@ -3,8 +3,8 @@
 - Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
 
 The Weight Tracker app was designed to help users track their weight over time.
-This app is tailored towards the serious athlete with strict weight reqruieme, health-concious individual, and casual user looking for
-an easy and convenient way to track their weight.
+This app is tailored towards the serious athlete with a strict weight regiment, the health-concious individual with underlying medical conditions, 
+and the casual user looking for an easy and convenient way to track their weight.
 
 - What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
 
