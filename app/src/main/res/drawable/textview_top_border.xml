@@ -1,0 +1,18 @@
+<!-- res/drawable/textview_top_border.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Top border line -->
+    <item
+        android:height="1dp"
+        android:gravity="top">
+        <shape>
+            <solid android:color="#888888"/> <!-- Top border color -->
+        </shape>
+    </item>
+
+    <!-- Transparent fill below the border -->
+    <item android:top="1dp">
+        <shape>
+            <solid android:color="@android:color/transparent"/>
+        </shape>
+    </item>
+</layer-list>

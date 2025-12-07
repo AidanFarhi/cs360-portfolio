@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/dailyWeightEntryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="72dp"
+        android:text="Enter Daily Weight"
+        android:textSize="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/dailyWeightInputEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="164dp"
+        android:hint="Weight"
+        android:inputType="number"
+        android:textSize="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="264dp"
+        android:text="lb"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/dateEditText"
+        android:layout_width="206dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="344dp"
+        android:clickable="true"
+        android:focusable="false"
+        android:hint="Select date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onDateEditTextClick"
+        />
+
+    <Button
+        android:id="@+id/saveDailyWeightButton"
+        android:layout_width="213dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="472dp"
+        android:text="Save"
+        app:backgroundTint="@android:color/system_control_activated_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@android:color/white"
+        android:onClick="onSaveDailyWeightButtonClick"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
